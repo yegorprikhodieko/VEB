@@ -31,9 +31,9 @@
 			<form name="contact" method="POST" data-netlify="true" class="form">
 				<fieldset>
 					<legend>Личная информация</legend>
-					<input type="text" name="text-field" placeholder="Ваше имя" required>
-					<input type="text" name="text-field" placeholder="Ваша фамилия" required>
-					<input type="text" name="text-field" placeholder="Ваше отчество" required>
+					<input type="text" name="text-field1" placeholder="Ваше имя" required>
+					<input type="text" name="text-field2" placeholder="Ваша фамилия" required>
+					<input type="text" name="text-field3" placeholder="Ваше отчество" required>
 					<p>
 						<label>Дата рождения: <input type="date" name="date"></label> 
 					</p>
@@ -44,23 +44,24 @@
         	</select>
 					</p>
 				</fieldset>
-				<fieldset name="contact" method="POST" data-netlify="true">
+				<fieldset>
 					<legend>Контактная информация</legend>
 					<p>
-						<lable for="password">Пароль: <input type="password" name="password" id="password"></lable>
+						<label for="password">Пароль: <input type="password" name="password" id="password"></label>
 					</p>
+					
 					<p>
 						<label>Email: <input type="email" name="email"></label>
 					</p>
 					<p>
 						<label>Номер телефона: <input type="tel" name="tel" required></label>
 					</p>
-					<p> Удобный интервал для связи:
+					<p> Удобный интервал для связи:</p>
 						<p><label><input type="checkbox" name="checked" value="1">Утро (с 8:00 до 12:00)</label></p>
         		<p><label><input type="checkbox" name="checked" value="2" checked>День (с 12:00 до 18:00)</label></p>
 						<p><label><input type="checkbox" name="checked" value="3">Вечер (с 18:00 до 00:00)</label></p>
 						<p><label><input type="checkbox" name="checked" value="4">Ночь (с 00:00 до 04:00)</label></p>
-					</p>
+					
 				</fieldset>
 					<p>
 						<button type="submit">Отправить<img src="img/arrow_right.svg" alt="Кнопка «отправить»" class="img-sbcrb"></button>
