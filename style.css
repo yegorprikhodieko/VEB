@@ -1,3 +1,13 @@
+.blueSection{
+    background: #16697A;
+    
+}
+.darckerSection{
+    width: 1440px;
+height: 808px;
+    background: #F3F3F3;
+    margin: auto;
+}
 
 html {
     box-sizing: border-box;
@@ -507,10 +517,121 @@ margin:30px 50px;
     background: #16697A;
     border-radius: 2px;
     align-items: center;
+    margin: auto;
 }
-input{
+.Sub{
+    background-color: #FFA62B;
+    border: 1px solid #E6E6E6;
+box-sizing: border-box;
+border-radius: 0px 5px 5px 0px;
+width: 117px;
+height: 58px;
+margin-right: 48px;
+color: var(--color-white);
+}
+.Email{
     margin-left: 130px;
     background: #F9F9F9;
 border: 1px solid #E6E6E6;
+height: 58px;
+color: var(--color-same-gray);
+padding-left: 20px;
+}
+.MarginProb{
+    margin-top: 10px;
+    margin-bottom: 160px;
+}
+.PostFlex{
+    margin: auto;
+    max-width: 984px;
+}
+.Loc{
+    background-color: #252B42;
+    text-align: center;
+    width: 328px;
+    height: 393px;
+    padding-top: 80px;
+}
+.Tel{
+    background-color: var(--color-white);
+    text-align: center;
+    width: 328px;
+    height: 333px;
+    padding-top: 50px;
+}
+.Loc div{
+    width: 221px;
+height: 48px;
+margin: auto;
+text-align: center;
+color: var(--color-white);
+}
+.Tel p{
+    width: 221px;
+    height: 48px;
+    margin: auto;
+    text-align: center;
+    color: #252B42;
+}
+.Tel button{
+    align-items: center;
+padding: 10px 20px;
+
+width: 160px;
+height: 44px;
+border: 1px solid #FFA62B;
+box-sizing: border-box;
 border-radius: 5px;
+color: #FFA62B;
+background-color: var(--color-white);
+margin: auto;
+}
+.Loc button{
+    align-items: center;
+    padding: 10px 20px;
+    
+    width: 160px;
+    height: 44px;
+    border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+color: var(--color-white);
+background-color: #252B42;
+margin: auto;
+}
+.H3Footer{
+    color: #252B42;
+}
+.footerflex{
+    max-width: 1041px;
+    max-height: 170px;
+    color:black;
+}
+.IconFooter{
+    max-height: 170px;
+    color: var(--color-white);
+}
+table{
+    vertical-align: middle;
+    display: table-column;
+}
+.FooterFirst div p{
+    text-align: left;
+}
+.ParMar{
+    margin-left: 195px;
+    margin-right: 398px;
+}
+.FooterFirst{
+    background-color: #FAFAFA;
+    width: 100%;
+    height: 62px;
+    margin: auto;
+}
+.FooterFirst button{
+    width: 160px;
+height: 58px;
+background: #FFA62B;
+border-radius: 5px;
+color: white;
 }

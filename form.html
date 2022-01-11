@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Laba 2</title>
+</head>
+<body>
+    <header class="header">
+        
+		<nav>
+			<div id="Icon">Indicorp</div>
+			<ul class = "menu">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Product</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li class="mar0"><a href="#">Contact</a></li>
+			</ul>
+			<div id="menu">
+				<a href="index.html"><img src="image/Menu.svg" alt=""></a>
+			</div>
+		</nav>
+    </header>
+		<section id="form-section">
+			<form name="contact" method="POST" data-netlify="true" class="form">
+				<fieldset>
+					<legend>Личная информация</legend>
+					<input type="text" name="text-field" placeholder="Ваше имя" required>
+					<input type="text" name="text-field" placeholder="Ваша фамилия" required>
+					<input type="text" name="text-field" placeholder="Ваше отчество" required>
+					<p>
+						<label>Дата рождения: <input type="date" name="date"></label> 
+					</p>
+					<p> Пол:
+					<select name="quantity" required>
+            <option value="1">Мужской</option>
+            <option value="2">Женский</option>
+        	</select>
+					</p>
+				</fieldset>
+				<fieldset name="contact" method="POST" data-netlify="true">
+					<legend>Контактная информация</legend>
+					<p>
+						<lable for="password">Пароль: <input type="password" name="password" id="password"></lable>
+					</p>
+					<p>
+						<label>Email: <input type="email" name="email"></label>
+					</p>
+					<p>
+						<label>Номер телефона: <input type="tel" name="tel" required></label>
+					</p>
+					<p> Удобный интервал для связи:
+						<p><label><input type="checkbox" name="checked" value="1">Утро (с 8:00 до 12:00)</label></p>
+        		<p><label><input type="checkbox" name="checked" value="2" checked>День (с 12:00 до 18:00)</label></p>
+						<p><label><input type="checkbox" name="checked" value="3">Вечер (с 18:00 до 00:00)</label></p>
+						<p><label><input type="checkbox" name="checked" value="4">Ночь (с 00:00 до 04:00)</label></p>
+					</p>
+				</fieldset>
+					<p>
+						<button type="submit">Отправить<img src="img/arrow_right.svg" alt="Кнопка «отправить»" class="img-sbcrb"></button>
+						<button type="reset" disabled>Сбросить<img src="img/reset.png" alt="Кнопка «сбросить»" class="img-reset"></button>
+					</p>
+			</form>
+		</section>
+		<footer class="footer-form">
+			<div class="footer-div">
+					
+					<div class="footer-two">
+							<p class="title">Смотрите</p>					
+									<div class="footer-two-ul">
+											<a href="#" class="footer-two-a">Товары</a>
+											<a href="#" class="footer-two-a">Услуги</a>
+											<a href="#" class="footer-two-a">Блог</a>
+											<a href="#" class="footer-two-a">Контакты</a>
+									</div>
+					</div>
+					<div class="footer-three">
+							<p class="title">Обслуживание клиентов</p>
+							<div class="footer-two-ul">
+							<a href="#" class="footer-two-a">Свяжитесь с нами</a>
+							<a href="#" class="footer-two-a">Политика конфидиальности</a>
+							</div>
+					</div>
+					<div class="footer-four">
+							<p class="title">Контакты</p>
+							
+							<div class="footer-two-ul">
+									<a href="tel:+78002004666" class="footer-three-a">
+											<img src="img/phone.svg" alt="телефон" class="svg-footer">
+											8 (800) 200-46-66
+									</a>
+									<a href="mailto:indicorp@gmail.com" class="footer-three-a">
+											<img src="img/email.svg" alt="мэил" class="svg-footer">
+											indicorp@gmail.com
+									</a>
+							</div>   
+							<ul class="network-links">
+									<li><a href="#"><img src="img/icon_instagram.svg" alt="Инст"></a></li>
+									<li><a href="#"><img src="img/icon_facebook.svg" alt="Фейсбук"></a></li>
+									<li><a href="#"><img src="img/icon_twitter.svg" alt="Твитер"></a></li>
+							</ul>
+					</div>
+			</div>
+	</footer>
+</body>
+</html>
