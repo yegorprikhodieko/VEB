@@ -27,13 +27,13 @@
 			</div>
 		</nav>
     </header>
-		<section id="form-section">
+		<section class="form-section">
 			<form name="contact" method="POST" data-netlify="true" class="form">
 				<fieldset>
 					<legend>Личная информация</legend>
-					<input type="text" name="text-field1" placeholder="Ваше имя" required>
-					<input type="text" name="text-field2" placeholder="Ваша фамилия" required>
-					<input type="text" name="text-field3" placeholder="Ваше отчество" required>
+					<p><input type="text" name="text-field1" placeholder="Ваше имя" required></p>
+					<p><input type="text" name="text-field2" placeholder="Ваша фамилия" required></p>
+					<p><input type="text" name="text-field3" placeholder="Ваше отчество" required></p>
 					<p>
 						<label>Дата рождения: <input type="date" name="date"></label> 
 					</p>
@@ -43,6 +43,7 @@
             <option value="2">Женский</option>
         	</select>
 					</p>
+				
 				</fieldset>
 				<fieldset>
 					<legend>Контактная информация</legend>
@@ -69,45 +70,35 @@
 					</p>
 			</form>
 		</section>
-		<footer class="footer-form">
-			<div class="footer-div">
-					
-					<div class="footer-two">
-							<p class="title">Смотрите</p>					
-									<div class="footer-two-ul">
-											<a href="#" class="footer-two-a">Товары</a>
-											<a href="#" class="footer-two-a">Услуги</a>
-											<a href="#" class="footer-two-a">Блог</a>
-											<a href="#" class="footer-two-a">Контакты</a>
-									</div>
-					</div>
-					<div class="footer-three">
-							<p class="title">Обслуживание клиентов</p>
-							<div class="footer-two-ul">
-							<a href="#" class="footer-two-a">Свяжитесь с нами</a>
-							<a href="#" class="footer-two-a">Политика конфидиальности</a>
-							</div>
-					</div>
-					<div class="footer-four">
-							<p class="title">Контакты</p>
-							
-							<div class="footer-two-ul">
-									<a href="tel:+78002004666" class="footer-three-a">
-											<img src="img/phone.svg" alt="телефон" class="svg-footer">
-											8 (800) 200-46-66
-									</a>
-									<a href="mailto:indicorp@gmail.com" class="footer-three-a">
-											<img src="img/email.svg" alt="мэил" class="svg-footer">
-											indicorp@gmail.com
-									</a>
-							</div>   
-							<ul class="network-links">
-									<li><a href="#"><img src="img/icon_instagram.svg" alt="Инст"></a></li>
-									<li><a href="#"><img src="img/icon_facebook.svg" alt="Фейсбук"></a></li>
-									<li><a href="#"><img src="img/icon_twitter.svg" alt="Твитер"></a></li>
-							</ul>
-					</div>
-			</div>
-	</footer>
+		<div class="form-section">
+			<form name="psefdo" method="POST" data-netlify="true" class="Form_Body_2">
+				<dl>
+					<dt>Псевдоэлемент</dt>
+					<dd>
+						Псевдоэлемент в CSS — это ключевое слово, добавляемое к селектору, которое позволяет стилизовать определённую часть выбранного элемента. 
+						Например, псевдоэлемент ::first-line может быть использован для изменения шрифта первой строки абзаца.
+					</dd>
+					<dt>Псевдокласс</dt>
+					<dd>
+						Псевдокласс в CSS — это ключевое слово, добавленное к селектору, которое определяет его особое состояние.
+						Например, :hover может быть использован для изменения цвета кнопки при наведении курсора на неё.
+					</dd>
+				</dl>
+				<p class="color_main">Псевдоклассы</p>
+				<p class="checkbox1"><input type="checkbox" id="cb1" checked> <label for="cb1">:active</label></p>	
+				<p class="checkbox2"><input type="checkbox" id="cb2" checked> <label for="cb2" >:checked</label></p>
+				<p class="checkbox1"><input type="checkbox" id="cb3" checked> <label for="cb3">:hover</label></p>
+				<p class="checkbox2"><input type="checkbox" id="cb4" checked> <label for="cb4">:focus</label></p>
+				<p class="checkbox1"><input type="checkbox" id="cb5" >        <label for="cb5">:not()</label></p>
+				<p class="checkbox2"><input type="checkbox" id="cb6" checked> <label for="cb6">:root</label></p>
+				<p class="color_main">Псевдоэлементы</p>
+				<p class="checkbox1"><input type="checkbox" id="cb7" checked> <label for="cb7">::after</label></p>
+				<p class="checkbox2"><input type="checkbox" id="cb8">         <label for="cb8">::slotted</label></p>
+				<p class="checkbox1"><input type="checkbox" id="cb9" checked> <label for="cb9">::before</label></p>
+				<p class="checkbox2"><input type="checkbox" id="cb10" checked> <label for="cb10">::first-letter</label></p>
+				<p class="checkbox1"><input type="checkbox" id="cb11">         <label for="cb11">::first-line</label></p>
+				<p class="checkbox2"><input type="checkbox" id="cb12" checked> <label for="cb12">::selection</label></p>
+			</form>
+		</div>
 </body>
 </html>
